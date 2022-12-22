@@ -16,7 +16,8 @@
 	<description>api-restaurante</description>
 	<modules>
 		<module>vinculacion-cliente</module>
-	</modules>
+        <module>reservas</module>
+    </modules>
 	<properties>
 		<java.version>17</java.version>
 		<spring.boot.maven.plugin.version>3.0.0</spring.boot.maven.plugin.version>

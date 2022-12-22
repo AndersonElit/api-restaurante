@@ -1,16 +1,18 @@
-package com.apirestaurante.controller;
+package com.apirestaurante.vinculacioncliente.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.*;
+
 @RestController
 @RequestMapping("api/v1/vinculacion-cliente")
 public class VinculacionClienteController {
 
-    @GetMapping("/saludoCliente")
+    @GetMapping("/saludo-cliente")
     public String saludar() {
-        return "Hola, como estas, bn bn";
+        return "Hola desde vinculacion cliente";
     }
 
 }
